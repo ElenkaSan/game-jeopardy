@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jeopardy</title>
+  <link href="https://fonts.googleapis.com/css?family=Copse&display=swap"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="jeopardy.css">
+</head>
+  <body>
+    <div class="container">
+      <h1 id="title" class="text-center">Jeopardy Game</h1>
+       <div class="d-flex justify-content-center m-4">
+         <span class="d-grid border border-4 rounded border-warning">
+          <button id="restartGame" class="btn btn-outline-success btn-lg">Play Again?</button>
+         </span>      
+        </div>
+       </div>
+        <div id="game" class="d-flex justify-content-center">
+          <table id="board" class="mobile composition"></table>
+        </div>
+        <br></br>
+   <script src="https://unpkg.com/jquery"></script>
+   <script src="https://unpkg.com/axios/dist/axios.js"></script>
+   <script src="https://unpkg.com/lodash"></script>
+   <script src="jeopardy.js"></script>
+  </body>
+</html>

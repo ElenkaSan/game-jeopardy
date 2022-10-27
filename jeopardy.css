@@ -1,0 +1,107 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+#board td {
+  border: solid 1px #666;
+  transition-duration: 0.5s;
+  font-size: 9pt;
+  background-color: #4187a596;
+  border-collapse: collapse;
+  width: 110px;
+  height: 110px;
+  border: solid 2px rgb(13, 83, 16);
+  text-align: center;
+  cursor: pointer;
+
+}
+
+ #column-top td {
+  border: double 4px rgb(13, 83, 16);
+  width: 12em;
+  height: 4em;
+  padding: 1em;
+  text-transform: uppercase; 
+  font-family: 'Syne Mono', monospace;
+  font-weight: bold;
+  text-shadow: rgb(209, 155, 18) 1px 1px;
+  background-color:  #e0b27e ;
+} 
+
+button {
+ font-family: 'Syne Mono', monospace;
+}    
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  background: linear-gradient(160deg,  #00fcda 1%, #e0b27e 50%);
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-clip: border-box;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: scroll;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+h1 {
+  Color:  rgb(235, 144, 69);
+  font-size: 3.6em;  
+  text-shadow: 5px 5px 15px rgb(6, 7, 68);
+}  
+
+@media screen and (max-width: 600px) {
+  h1 {
+    Color:  rgb(235, 144, 69);
+    font-size: 2.6em;  
+    text-shadow: 5px 5px 15px rgb(6, 7, 68);
+  }  
+
+  table.main .per-50g {
+    display: none;
+  }
+  table.main .per-100g {
+    display: none;
+  }
+  
+  table.mobile {
+    display: table;
+    margin: 2em;
+  }
+  
+  table.composition {
+    width: 100%;
+  }
+
+  table.composition td {
+    width: 50%;
+  }
+
+  body {
+    width: auto;
+    padding: auto;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    margin: 0;
+    padding: 0;
+    height: 130%;
+  }
+}
