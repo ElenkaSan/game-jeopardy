@@ -17,7 +17,14 @@
   border: solid 2px rgb(13, 83, 16);
   text-align: center;
   cursor: pointer;
+}
 
+#board {
+  padding: 32px;
+  border-radius: 10px;
+  margin: 1em;
+  padding: 0;
+  background-attachment: fixed;
 }
 
  #column-top td {
@@ -46,20 +53,12 @@ body {
   border-radius: 10px;
   box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
   justify-content: space-between;
+  text-align: center;
   font-family: "Ubuntu", sans-serif;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-clip: border-box;
-  overflow: scroll;
-  margin: 0;
+  margin: 0.5em;
   padding: 0;
-  height: 100vh;
-  overflow: scroll;
-  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
 }
 
 h1 {
@@ -95,13 +94,14 @@ h1 {
     width: 50%;
   }
 
-  body {
+  #board tr td{
     width: auto;
     padding: auto;
+    /* padding: 32px; */
     border-radius: 10px;
-    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
-    margin: 0;
+    margin: 1em;
     padding: 0;
-    height: 130%;
+    background-attachment: fixed;
   }
+  
 }
